@@ -1,0 +1,65 @@
+html {
+  background-color: #eee;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  width: 620px;
+  margin: auto;
+  color: #777;
+}
+
+#input {
+  padding: 1em 2em;
+}
+
+#input strong {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#message {
+  margin-top: .5em;
+  width: 520px;
+  height: 25px;
+  display: block;
+}
+
+#input .chat {
+  display: block;
+  font-size: 1em;
+  color: #666;
+  background-color: #eee;
+  padding: .25em;
+  margin: .25em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1em 1.33em;
+}
+
+#chatlist {
+  margin: 1em 2em 0;
+  border-top: 1px solid #ccc;
+  height: 250px;
+  width: 540px;
+  overflow: auto;
+}
+
+.chat {
+  font-size: .8em;
+  color: #black;
+  padding: .5em;
+  background-color: white;
+}
+
+.user {
+  font-weight: bold;
+}
+
+.timestamp {
+  font-size: .75em;
+}
